@@ -1,0 +1,38 @@
+:root{
+    --textSize:1rem;
+    --enfasisColor:#0F0F0F;
+    --secondaryColor :#3F3F3F;
+}
+
+.editBody{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+input[type="number"],input[type="text"]{
+    width: 3rem;
+    border: none;
+    font-size: var(--textSize);
+    margin: 0 1rem;
+    border-bottom: 2px solid var(--enfasisColor);
+    padding:0 0.5rem;
+    text-align: center;
+}
+input[type="text"]{
+    width: 15rem;
+    
+}
+
+label{
+    color: var(--secondaryColor);
+}
+
+.titleSeccion{
+    color:var(--enfasisColor);
+}

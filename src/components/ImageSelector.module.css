@@ -1,0 +1,14 @@
+.imageSelector{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    max-height: 24rem;
+    overflow-y: scroll;
+}
+
+@media only screen and (min-width: 900px) {
+    .imageSelector{
+        
+        background-color: bisque;
+    }
+}
